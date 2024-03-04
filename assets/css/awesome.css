@@ -1,0 +1,74 @@
+#awesome .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#awesome .headline h1{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+}
+
+#awesome .headline p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+
+#awesome .container{
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+#awesome .container .element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 330px;
+}
+
+#awesome .container .frame{
+   
+    width: 66px;
+      height: 66px;
+      background-color: transparent; 
+      border: 2px solid #ff8b38; 
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+}
+
+#awesome .container .frame i{
+    color: #ff8b38;
+    font-size: 30px;
+}
+
+#awesome .container h2{
+    font-size: 20px;
+line-height: 24px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+margin-bottom: 30px;
+}
+
+#awesome .container p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}

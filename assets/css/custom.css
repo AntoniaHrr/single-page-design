@@ -1,0 +1,55 @@
+#custom {
+    background-image: url('../images/Background.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+
+}
+
+
+#custom .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#custom .headline h1{
+    font-size: 36px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 800px;
+}
+
+#custom .headline .orange-line{
+    background-color:white;
+}
+
+#custom .headline p{
+    opacity: 0.800;
+font-size: 16px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Raleway";
+}
+
+#custom .headline button{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 12px 20px;
+    border: solid #fff;
+    margin-top:35px;
+}
+
+#custom .headline button:hover{
+    cursor:pointer;
+}
+
+#custom {
+    margin-bottom:-80px;
+}

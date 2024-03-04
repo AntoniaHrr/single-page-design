@@ -1,0 +1,84 @@
+#contact .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .headline h1{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-family: "Raleway";
+font-weight: 600;
+}
+
+#contact .headline p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+padding-bottom: 85px;
+}
+
+
+#contact input[type=text]{
+    display: block;
+    width: 530px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#contact input[type=text]:hover {
+    width: 530px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:solid rgba(0,0,1,0.16);
+    margin-bottom: 200px;
+    
+  }
+
+#contact form input::placeholder{
+    font-size: 14px;
+color: #bdbdbd;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+#contact input[placeholder="Message"]{
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-left:50px;
+    margin-bottom: 200px;
+}
+
+
+
+#contact button{
+  
+    width: 140px;
+    height: 45px;
+   background-color:#ff8b38;
+   font-size: 15px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+   border: none;
+   border-radius: 2px;
+   margin-top: 40px;
+}
+
+#contact button:hover{
+    cursor:pointer;
+}
+
+#contact{
+    margin-bottom:-40px;
+}

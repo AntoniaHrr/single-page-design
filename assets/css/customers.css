@@ -1,0 +1,82 @@
+#customers .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#customers .headline h1{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+text-transform: uppercase;
+}
+
+#customers .headline p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+
+#customers .container .element .box{
+    width: 240px;
+    height: 100px;
+    margin: 50px auto;
+    background: #f5f5f5;
+    padding: 20px;
+    position: relative;
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#customers .container .element .box:before{
+
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  width: 0;
+  border-top: 15px solid #f5f5f5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent; 
+}
+
+#customers .container .element .customer{
+    justify-content: space-evenly;
+    max-width: 200px;
+    margin-top: -25px;
+    margin-right:70px;
+}
+
+#customers .container .element .customer .name h2{
+    font-size: 20px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+padding-bottom: 10px;
+padding-top: 15px;
+}
+
+#customers .container .element .customer .name p{
+    font-size: 14px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+#customers .container {
+    justify-content: space-around;
+}

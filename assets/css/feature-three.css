@@ -1,0 +1,30 @@
+#feature-three{
+    background-color: #f5f5f5;
+}
+
+#feature-three .text{
+    max-width: 485px;
+   margin-right: 100px;
+  padding-top: 30px;
+}
+
+#feature-three .text h2{
+    font-size: 20px;
+line-height: 43px;
+color: #212121;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+#feature-three .text p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+#feature-three img,
+#feature-three .text{
+    flex-grow:1;
+}

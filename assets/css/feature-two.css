@@ -1,0 +1,62 @@
+#feature-two .text{
+    max-width: 600px;
+    margin-left: 150px;
+}
+
+#feature-two .text p{
+    max-width: 450px;
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+#feature-two .text h2{
+    font-size: 20px;
+line-height: 43px;
+color: #212121;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+#feature-two .text h3{
+    font-size: 14px;
+line-height: 17px;
+color: #212121;
+font-weight: 600;
+font-family: "Open Sans";
+margin-bottom: 10px;
+}
+
+#feature-two .text .icon button{
+    border-radius: 50%;
+    border: solid #ff8b38;
+    background-color:transparent;
+    margin-right: 30px;
+}
+
+#feature-two .text .icon button i{
+    color: #ff8b38;
+    padding:10px 5px 10px 5px;
+}
+
+#feature-two .text .icon button:hover{
+    cursor:pointer;
+}
+
+#feature-two .text .download p,
+#feature-two .text .upload p
+{
+    max-width: 400px;
+}
+
+#feature-two .text div{
+    margin-top: 20px;
+}
+
+#feature-two img,
+#feature-two .text{
+    flex-grow:1;
+}
+
